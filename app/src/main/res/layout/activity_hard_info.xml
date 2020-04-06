@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hardInfo">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/grey2"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="76dp"
+                    android:layout_height="64dp"
+                    android:background="@color/green"
+                    android:onClick="toDisplay"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_tv_black_24dp" />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="1dp"
+                    android:background="@color/grey"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Display Properties"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="76dp"
+                    android:layout_height="64dp"
+                    android:background="@color/green"
+                    android:onClick="toSensors"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_gps_fixed_black_24dp" />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="1dp"
+                    android:background="@color/grey"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" List of Sesnors"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="76dp"
+                    android:layout_height="64dp"
+                    android:background="@color/green"
+                    android:onClick="toDevices"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_select_all_black_24dp" />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="1dp"
+                    android:background="@color/grey"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Check Peripherals"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="76dp"
+                    android:layout_height="64dp"
+                    android:background="@color/green"
+                    android:onClick="toGPS"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_photo_camera_black_24dp" />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="1dp"
+                    android:background="@color/grey"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Test Camera"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="76dp"
+                android:layout_height="64dp"
+                android:background="@color/green"
+                android:onClick="toBattery"
+                android:padding="10dp"
+                android:src="@drawable/ic_battery_unknown_black_24dp" />
+            <View
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Test Battery"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="76dp"
+                android:layout_height="64dp"
+                android:background="@color/green"
+                android:onClick="toComs"
+                android:padding="10dp"
+                android:src="@drawable/ic_import_export_black_24dp" />
+            <View
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Communications"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+    </LinearLayout>
